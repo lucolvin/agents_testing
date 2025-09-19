@@ -1,4 +1,4 @@
-# codex_testing Repository
+# agents_testing Repository
 
 This is a minimal testing repository for validating GitHub Copilot coding agent workflows and development practices.
 
@@ -23,7 +23,7 @@ The repository environment includes the following pre-installed tools:
 ## Working Effectively
 
 ### Initial Repository Setup
-- Navigate to repository: `cd /home/runner/work/codex_testing/codex_testing`
+- Navigate to repository: `cd /home/runner/work/agents_testing/agents_testing`
 - Verify environment: `node --version && npm --version && python3 --version && go version && java --version`
 - Check repository status: `git --no-pager status`
 - List repository contents: `ls -la`
@@ -86,7 +86,7 @@ The repository environment includes the following pre-installed tools:
 
 ### Repository Structure
 ```
-codex_testing/
+agents_testing/
 ├── .git/           # Git repository data
 ├── .github/        # GitHub configuration
 ├── README.md       # Project documentation
@@ -105,7 +105,7 @@ drwxrwxr-x 2 runner runner 4096 [date] .github
 
 # README content
 $ cat README.md
-# codex_testing
+# agents_testing
 
 # Environment verification
 $ node --version && npm --version
